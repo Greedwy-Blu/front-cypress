@@ -16,5 +16,6 @@ module.exports = {
         'no-use-before-define': 'off',
         'prefer-const': 'off',
         'n/no-path-concat': 'off',
+        indent: 'off',
     },
 }
