@@ -1,0 +1,35 @@
+{
+    "name": "cypress",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Greedwy-Blu/front-cypress.git",
+    "author": "Greedwy-Blu <greedwyblu@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "prepare": "husky install",
+        "commit": "git-cz"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.4.2",
+        "@commitlint/config-conventional": "^17.4.2",
+        "commitizen": "^4.2.6",
+        "commitlint": "^17.4.2",
+        "cypress": "^12.3.0",
+        "eslint": "^8.0.1",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-n": "^15.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.1.0",
+        "prettier": "^2.8.3"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
